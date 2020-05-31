@@ -2,26 +2,35 @@
 <html>
     <head>
         <title>
-            <style>
-                #text{
-                    color: bisque;
-                    position: absolute;
-                    top: 0;
-                    bottom: o;
-                    left: o;
-                    right: o;
-                }
-                #p{
-                    color: cadetblue;
-                    text-align: center;
-                }
-            </style>
             Hello World
         </title>
+        <style>
+
+            .text{
+                height: 300px;
+                width: 800px;
+                color: brown;
+                text-align: center;
+                position: absolute;
+                top: 250px;
+                font-size: 50px;
+                opacity: 0.5;
+                }
+                :hover .text {
+                    font-size: 100px;
+                    opacity: 1;
+                    color: cadetblue;
+            }
+            
+
+            
+        </style>
+         
     </head>
     <body>
-        <div id = "text">
-            <p id = "p">Hello World</p>
+        <div class = "text">
+            
+            Hello World
         </div>
       
     </body>
